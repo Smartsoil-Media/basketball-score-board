@@ -120,6 +120,7 @@ border-color: #881337;
         border-radius: 5%;
         color: white;
         width: 30%;
+        touch-action: manipulation;
     }
 
     .btn-box {
@@ -128,9 +129,5 @@ border-color: #881337;
 
     }
 
-}
-
-.disable-dbl-tap-zoom {
-    touch-action: manipulation none;
 }
 
