@@ -9,12 +9,17 @@ body {
 
 }
 
+h3 {
+    font-family: 'VT323', monospace;
+}
+
 
 .title {
 color: white;
 display: flex;
 justify-content: center;
 margin-bottom: -75px;
+font-family: 'VT323', monospace;
 
 
 font-family: 'Verdana';
@@ -88,7 +93,7 @@ border-color: #881337;
     .container {
         display: block;
         margin: none;
-        height: 1000px;
+        height: 100vh;
 
     }
 
@@ -107,8 +112,8 @@ border-color: #881337;
     }
     .score {
         color: green;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     .score-btn {
         display: inline-block;
@@ -116,10 +121,11 @@ border-color: #881337;
         padding: none;
         font-family: 'VT323', monospace;
         border: white solid 2px;
-        font-size: 20px;
+        font-size: 50px;
         border-radius: 5%;
         color: white;
         width: 30%;
+        height: 80px;
         touch-action: manipulation;
     }
 
