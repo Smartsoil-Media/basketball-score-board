@@ -118,8 +118,8 @@ border-color: #881337;
     }
     .score {
         color: green;
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 120px;
+        margin-right: 120px;
         font-family: monospace;
     }
     .score-btn {
