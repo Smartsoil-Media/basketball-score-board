@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh; 
+    display: flex;
+    background-color: #092c40;
+
+}
+
+
+.title {
+color: white;
+display: flex;
+justify-content: center;
+margin-bottom: -75px;
+
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px
+}
+
+.score-btn {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+    font-family: 'VT323', monospace;
+    border: white solid 2px;
+    font-size: 25px;
+    border-radius: 5%;
+    color: white;
+    width: 5em;
+
+  
+ }
+
+ .home-div {
+    width: 100%;
+    align-items: center;
+ }
+
+ .guest-div {
+    width: 100%;
+ }
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #881337;
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: none;
+    margin-bottom: 15px
+
+
+}
+
+
+.btn-box { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9.5em;
+    margin-right: 9.5em;
+    transition-delay: 250ms;
+
+}Basket
+
+
+.score-btn:hover {
+opacity: .5;
+border-color: #881337;
+}
+
+@media (max-width: 720px) {
+    .container {
+        display: block;
+        margin: none;
+
+    }
+
+    .home-div {
+        width: 100%;
+        border: solid #092c4000;
+        padding-top: 50px;
+        margin-bottom: 150px;
+        padding: none;
+;
+        
+    }
+
+    .guest-div {
+        width: 100%;
+    }
+    .score {
+        color: green;
+    }
+    .score-btn {
+        display: inline-block;
+        background-color: transparent;
+        padding: none;
+        font-family: 'VT323', monospace;
+        border: white solid 2px;
+        font-size: 16px;
+        border-radius: 5%;
+        color: white;
+    
+      
+     } 
+   
+}
