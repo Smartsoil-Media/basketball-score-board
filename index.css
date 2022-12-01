@@ -129,3 +129,8 @@ border-color: #881337;
     }
 
 }
+
+.disable-dbl-tap-zoom {
+    touch-action: manipulation none;
+}
+
