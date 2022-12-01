@@ -80,6 +80,10 @@ opacity: .5;
 border-color: #881337;
 }
 
+
+
+
+
 @media (max-width: 720px) {
     .container {
         display: block;
@@ -93,7 +97,7 @@ border-color: #881337;
         padding-top: 50px;
         margin-bottom: 150px;
         padding: none;
-;
+
         
     }
 
@@ -102,6 +106,8 @@ border-color: #881337;
     }
     .score {
         color: green;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .score-btn {
         display: inline-block;
@@ -112,8 +118,13 @@ border-color: #881337;
         font-size: 16px;
         border-radius: 5%;
         color: white;
-    
-      
-     } 
-   
+        width: 30%;
+    }
+
+    .btn-box {
+        margin-left: 23px;
+        margin-right: 23px;
+
+    }
+
 }
